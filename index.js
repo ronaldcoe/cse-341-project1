@@ -11,6 +11,8 @@ app.use((req, res, next)=> {
     next();
 })
 
+// app.get('/', contactRouter)
+
 mongodb.initDb(err=> {
     if(err){
         console.log(err);
