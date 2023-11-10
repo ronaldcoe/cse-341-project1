@@ -1,1 +1,31 @@
-GET http://localhost:3000/contact
+### Get all contacts
+GET https://cse341-mz1u.onrender.com/contact
+
+### Create a new contact
+POST https://cse341-mz1u.onrender.com/create_contact
+Content-Type: application/json
+
+{
+    "firstName": "Ronald",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1985-03-15T00:00:00.000Z"
+}
+
+### Update contact
+PUT https://cse341-mz1u.onrender.com/update_contact/6545943a5d7a577a8f8ebb27
+Content-Type: application/json
+
+{
+   
+    "firstName": "Ro",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1985-03-15T00:00:00.000Z"
+
+}
+
+### Update contact
+DELETE  https://cse341-mz1u.onrender.com/delete_contact/654d98042efc3f8f94b40f96

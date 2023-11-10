@@ -3,6 +3,11 @@ const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 const  contactRouter = require('./routes/contact');
 const app = express();
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger-output.json');
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use(bodyParser.json());
 
