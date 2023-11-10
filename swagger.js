@@ -5,7 +5,9 @@ const doc = {
         title: 'Contact API',
         description:'The Contact API provides the endpoints for the contact API'
     },
-    host:'cse341-mz1u.onrender.com/contact'
+    host:'cse341-mz1u.onrender.com',
+    basePath: '/contact',
+    schemes: ['https'],
 }
 
 const outputFile = './swagger-output.json';
