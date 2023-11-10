@@ -2,7 +2,7 @@
 GET https://cse341-mz1u.onrender.com/contact
 
 ### Create a new contact
-POST https://cse341-mz1u.onrender.com/create_contact
+POST https://cse341-mz1u.onrender.com/contact/create_contact
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 
 ### Update contact
-PUT https://cse341-mz1u.onrender.com/update_contact/6545943a5d7a577a8f8ebb27
+PUT https://cse341-mz1u.onrender.com/contact/update_contact/6545943a5d7a577a8f8ebb27
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 }
 
 ### Update contact
-DELETE  https://cse341-mz1u.onrender.com/delete_contact/654d98042efc3f8f94b40f96
+DELETE  https://cse341-mz1u.onrender.com/contact/delete_contact/654d98042efc3f8f94b40f96
