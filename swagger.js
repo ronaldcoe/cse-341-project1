@@ -5,7 +5,7 @@ const doc = {
         title: 'Contact API',
         description:'The Contact API provides the endpoints for the contact API'
     },
-    host:'localhost:3000'
+    host:'https://cse341-mz1u.onrender.com/contact'
 }
 
 const outputFile = './swagger-output.json';
